@@ -1,0 +1,110 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+
+  body{
+      max-width: 1400px;
+      font-family: "formula";
+  
+  }
+
+  
+  .content p {
+    font-family: 'Arvo', serif;
+      font-weight: 30;
+  }
+
+  @font-face {
+    font-family: "formula";
+    src: url(font/Formula1-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+  .topnav {
+    background-color:  #FF0600;
+    overflow: hidden;
+    height: 70px;
+    margin-left: 100px;
+  }
+
+  .logo img{
+    position: absolute;
+    padding-bottom: 100px;
+    height: 80px;
+    width: 100px;
+    
+  }
+
+  .teaser{
+    float: right;
+    font-family: "formula";
+    color: white;
+    text-align: center;
+    
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "formula";
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  
+  .vijesti{
+      max-width: 1400px;
+      margin-top: 100px;
+  }
+
+  .novavijest {
+      float:left;
+      max-width: 700px;
+  }
+
+  .naslov{
+    font-family: "formula";
+    font-size: 20px;
+  }
+
+  .vl {
+    border-left: 6px solid red;
+    height: 650px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+
+.novavijest2 {
+    float:left;
+    max-width: 684px;
+}
+
+.ostalavijest{
+    float: left;
+    max-width: 340px;
+    margin-bottom: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
